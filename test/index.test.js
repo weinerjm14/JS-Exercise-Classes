@@ -156,7 +156,7 @@ const projectManagerAttr = {
   gradClassName: 'Web25',
   favInstructor: 'Luis'
 }
-xdescribe('Instance of Lambdasian', () => {
+describe('Instance of Lambdasian', () => {
   let lambdasian
   beforeEach(() => {
     lambdasian = new results.Lambdasian(lambdasianAttr)
