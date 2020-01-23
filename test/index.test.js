@@ -72,7 +72,7 @@ describe('Instance of Person', () => {
   })
 })
 
-describe('Instance of Car', () => {
+xdescribe('Instance of Car', () => {
   let batmobile
   beforeEach(() => {
     batmobile = new results.Car('BatMobile', 20)
@@ -156,7 +156,7 @@ const projectManagerAttr = {
   gradClassName: 'Web25',
   favInstructor: 'Luis'
 }
-describe('Instance of Lambdasian', () => {
+xdescribe('Instance of Lambdasian', () => {
   let lambdasian
   beforeEach(() => {
     lambdasian = new results.Lambdasian(lambdasianAttr)
@@ -179,7 +179,7 @@ describe('Instance of Lambdasian', () => {
   })
 })
 
-describe('Instance of Instructor', () => {
+xdescribe('Instance of Instructor', () => {
   let instructor
   beforeEach(() => {
     instructor = new results.Instructor(instructorAttr)
@@ -217,7 +217,7 @@ describe('Instance of Instructor', () => {
   })
 })
 
-describe('Instances of Student', () => {
+xdescribe('Instances of Student', () => {
   let student
   beforeEach(() => {
     student = new results.Student(studentAttr)
@@ -265,7 +265,7 @@ describe('Instances of Student', () => {
   })
 })
 
-describe('Instance of ProjectManager', () => {
+xdescribe('Instance of ProjectManager', () => {
   let pm
   beforeEach(() => {
     pm = new results.ProjectManager(projectManagerAttr)
