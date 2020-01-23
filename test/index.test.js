@@ -72,7 +72,7 @@ describe('Instance of Person', () => {
   })
 })
 
-xdescribe('Instance of Car', () => {
+describe('Instance of Car', () => {
   let batmobile
   beforeEach(() => {
     batmobile = new results.Car('BatMobile', 20)
