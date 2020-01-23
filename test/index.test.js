@@ -179,7 +179,7 @@ describe('Instance of Lambdasian', () => {
   })
 })
 
-xdescribe('Instance of Instructor', () => {
+describe('Instance of Instructor', () => {
   let instructor
   beforeEach(() => {
     instructor = new results.Instructor(instructorAttr)
